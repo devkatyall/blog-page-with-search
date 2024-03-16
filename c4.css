@@ -29,15 +29,17 @@ body{
     border-top: 9px solid;
     padding: 30px 105px;
     flex-wrap: wrap;
+    gap: 30px;
 }
 .card{
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    border: 1px solid;
+    padding: 10px 15px;
     border-radius: 9px;
-    width: 22.5%;
+    width: 20.5%;
     margin: 5px;
+    box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
 }
 .title{
     font-weight: 800;
@@ -61,10 +63,13 @@ body{
         border: 2px dotted black;
     }
     .blog{
-        padding: 10px 0;
+        padding: 20px 0;
+        gap: 15px;
     }
     .card{
         width: 100%;
+        box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;;
     }
     .title{
         font-size: 20px;
