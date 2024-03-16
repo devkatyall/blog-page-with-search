@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Instrument Sans", sans-serif;
+    padding: 2vw;
+}
+.container{
+    display: flex;
+    padding: 2vw 0;
+}
+.searchbar{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 105px;
+}
+.container label{
+    font-size: 50px;
+    font-weight: 600;
+}
+#input{
+    width: 22vw;
+    padding: 5px;
+    cursor: text;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    border-top: 9px solid;
+    padding: 30px 105px;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 9px;
+    width: 22.5%;
+    margin: 5px;
+}
+.title{
+    font-weight: 800;
+    padding: 10px 0;
+}
+.hide{
+    display: none;
+}
+@media only screen and (max-width: 767px){
+    .container{
+        margin:0;
+        padding: 10px;
+        justify-content: center;
+    }
+    .searchbar{
+        margin: 0;        
+    }
+    #input{
+        margin: auto;
+        width: 80vw;
+        border: 2px dotted black;
+    }
+    .blog{
+        padding: 10px 0;
+    }
+    .card{
+        width: 100%;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .about{
+        font-size: 15px;
+    }
+}
