@@ -48,6 +48,9 @@ body{
 .hide{
     display: none;
 }
+.highlight{
+    background-color: rgba(0, 208, 255, 0.366);
+}
 @media only screen and (max-width: 767px){
     .container{
         margin:0;
